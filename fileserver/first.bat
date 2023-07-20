@@ -1,0 +1,1 @@
+python -m pip install flask -i https://pypi.tuna.tsinghua.edu.cn/simple

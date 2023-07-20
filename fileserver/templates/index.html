@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>welcome</title>
+    </head>
+    <body>
+        <img src="https://badges.toozhao.com/badges/01H5A3NMTBZ8CR1G7VY0CS6RPV/orange.svg" />
+    <h1>FZOIer File Server</h1><h3>By llzzmm645</h3>
+        <p>曾经刘子墨攻击这服务器，把我电脑搞坏了，所以大小限制是<font color="red">1MB</font></p>
+        <a href="/upload">上传</a>
+        <br>
+        <a href="/download">下载</a>
+        <p>{% for f in fl %}编号：{{f[0]}}<br/>文件：{{f[1]}}<br/>{% endfor %}
+    </body>
+</html>
